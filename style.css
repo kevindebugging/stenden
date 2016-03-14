@@ -1,0 +1,79 @@
+/*
+Theme Name: Bridge Child
+Theme URI: http://demo.qodeinteractive.com/bridge/
+Description: A child theme of Bridge Theme
+Author: Qode Interactive
+Author URI: http://www.qodethemes.com/
+Version: 1.0.0
+Template: bridge
+*/
+@import url("../bridge/style.css");
+
+/********************************************* Header *****************************************/
+nav.main_menu>ul>li>a {
+    padding: 0 10px;
+    letter-spacing: normal;
+}
+.q_logo.stenden_logo a {
+    height: 75px!important;
+    z-index: 112;
+}
+.header_bottom .container_inner, .header_top .container_inner {
+    width: 100%;
+}
+nav.main_menu.drop_down ul li {
+    float: none;
+}
+.header_top_bottom_holder .header_bottom, .header_top_bottom_holder .header_top {
+    padding: 0 110px;
+}
+nav.main_menu.drop_down.right {
+    text-align: right;
+}
+nav.main_menu.right>ul#menu-footer-menu {
+    width: 1100px;
+}
+nav.main_menu>ul>li>a{
+    font-size: 15px;
+}
+nav.main_menu>ul#menu-custom-menu>li>a {
+    font-size: 16px;
+    color: #0D4686;
+}
+.drop_down .second .inner ul li a {
+    color: #417ABD;
+}
+.drop_down .second .inner>ul, li.narrow .second .inner ul {
+    background-color: #FFFFFF;
+}
+.drop_down .second .inner>ul>li>a:hover, .drop_down .second .inner ul li.sub ul li a:hover {
+    color: #5CA5F9;
+}
+header .header_inner_left {
+    left: 110px;
+}
+.textwidget .qode_icon_font_awesome {
+    padding: 0px 10px;
+    color: #0D4686;
+}
+.textwidget .qode_icon_font_awesome:hover {
+    color: #5CA5F9;
+}
+    
+/********************************************* Header *****************************************/
+/********************************************* Footer *****************************************/
+.footer_bottom .textwidget a {
+    color: #818181;
+}
+.footer_bottom .textwidget a:hover {
+    color: #5CA5F9;
+}
+/********************************************* Footer *****************************************/
+@media screen and (max-width: 1200px) {
+    .header_top_bottom_holder .header_bottom, .header_top_bottom_holder .header_top {
+        padding: 0 20px;
+    }
+    header .header_inner_left {
+        left: 25px;
+    }
+}

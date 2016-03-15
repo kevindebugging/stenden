@@ -311,7 +311,7 @@ if (isset($qode_options_proya['footer_text'])) {
             $footer_bottom_border_style[] = 'height: '.$footer_bottom_border_width;
         }
 
-		if($display_footer_text){ ?>
+		if($display_footer_text && is_front_page()){ ?>
 			<div class="footer_bottom_holder">
                 <?php if($footer_bottom_border_color !== '') { ?>
                     <div <?php qode_inline_style($footer_bottom_border_style); ?> <?php qode_class_attribute('footer_bottom_border '.$footer_bottom_border_in_grid_class); ?>></div>

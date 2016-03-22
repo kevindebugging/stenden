@@ -59,8 +59,18 @@ header .header_inner_left {
 .textwidget .qode_icon_font_awesome:hover {
     color: #5CA5F9;
 }
-    
+.q_slider{
+    margin-top: 105px;
+}
 /********************************************* Header *****************************************/
+
+.no-prices .prices {
+    display: none;
+}
+.q_circles_holder .q_circle_inner2:hover {
+    background-color: #004085!important;
+    border-color: #004085!important;
+}
 /********************************************* Footer *****************************************/
 .footer_bottom .textwidget a {
     color: #818181;

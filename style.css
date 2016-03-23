@@ -71,6 +71,9 @@ header .header_inner_left {
     background-color: #004085!important;
     border-color: #004085!important;
 }
+.q_price_table .price_table_inner{
+background-color: #004694;
+}
 /********************************************* Footer *****************************************/
 .footer_bottom .textwidget a {
     color: #818181;
